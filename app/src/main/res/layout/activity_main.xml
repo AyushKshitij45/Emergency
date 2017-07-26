@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.emergency.MainActivity">
+
+    <Button
+        style="@style/HeaderTextStyle"
+        android:layout_weight="10"
+        android:text="@string/start_button" />
+
+
+    <Button
+        style="@style/HeaderTextStyle"
+        android:layout_weight="1"
+        android:text="@string/myHealth_button" />
+
+    <LinearLayout
+        style="@style/HeaderTextStyle"
+        android:layout_weight="1">
+
+        <Button
+            style="@style/HeaderTextStyleButton"
+            android:layout_weight="1"
+            android:text="@string/browse_button" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/HeaderTextStyleButton"
+            android:layout_weight="1"
+            android:text="@string/myAccount_button" />
+    </LinearLayout>
+</LinearLayout>

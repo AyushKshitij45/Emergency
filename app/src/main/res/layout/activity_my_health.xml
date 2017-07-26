@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.emergency.MyHealthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Name- USER3842" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Blood Group - A+" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Diabetes : Yes" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Allegies: Peanuts,Eggs" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Thyroid- Hypothroidism"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="BP- 130/80" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Diabetes(Fasting)- 108" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Diabetes(afeter meal)- 198" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Thyroid Level: 7.25" />
+
+    </LinearLayout>
+</LinearLayout>

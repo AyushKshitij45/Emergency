@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Emergency</string>
+
+    <string name="start_button">Start Emergency</string>
+    <string name="myHealth_button">My Health Data</string>
+    <string name="myAccount_button">User Profile</string>
+    <string name="browse_button">Browse</string>
+    <string name="by_hospital_name">By Hospital Name</string>
+    <string name="search">Search</string>
+    <string name="emergency_act_button">Emergency Activated</string>
+    <string name="by_department_name">Search by Department</string>
+    <string name="stranger_button">Stranger</string>
+    <string name="self_button">Self</string>
+    <string name="near_by_button">Nearby</string>
+    <string name="ambulance_text">Ambulance</string>
+    <string name="hospital_text">Hospitals</string>
+    <string name="police_text">Police</string>
+    <string name="myHealth2_button">Update Health Data</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+</resources>

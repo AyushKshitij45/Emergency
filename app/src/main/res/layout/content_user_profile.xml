@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.emergency.UserProfileActivity"
+    tools:showIn="@layout/activity_user_profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.emergency.UserProfileActivity">
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_margin="12dp"
+            android:text="USER3842"
+            android:textSize="42sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/HeaderTextStyle"
+                android:layout_weight="1"
+                android:text="SEX:Male" />
+
+            <TextView
+                style="@style/HeaderTextStyle"
+                android:layout_weight="1"
+                android:text="Age:21Years" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/HeaderTextStyle"
+                android:layout_weight="1"
+                android:text="Weight:87kg" />
+
+            <TextView
+                style="@style/HeaderTextStyle"
+                android:layout_weight="1"
+                android:text="Heaight:173cm" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood Group:A+" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/HeaderTextStyle"
+            android:text="Medical Insurance:" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/HeaderTextStyle"
+            android:text="Contacts:" />
+    </LinearLayout>
+
+</LinearLayout>
